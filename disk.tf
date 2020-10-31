@@ -4,6 +4,7 @@ variable "tenantId" {}
 variable "secretKey" {}
 
 provider "azurearm" {
+  version = "=2.4.0"
   client_id = var.clientId
   subscription_id = var.subscriptionId
   tenant_id = var.tenantId
