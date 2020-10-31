@@ -8,7 +8,7 @@ provider "azurearm" {
   client_id = var.clientId
   subscription_id = var.subscriptionId
   tenant_id = var.tenantId
-  secret_key = var.secretKey
+  client_secret = var.secretKey
   features {}
 }
 
